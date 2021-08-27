@@ -1,0 +1,78 @@
+body{
+  margin: 5%;
+  matgin-top: 10%;
+  padding: 0;
+  background: url(assets/bg.jpg) repeat;
+  background-size: cover;
+}
+
+.img{
+	width: 30px;
+	height:30px;
+}
+
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%
+  color: black;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+.box li{
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+.box li a{
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+.box li a img{
+width:20px;
+height:20px;
+}
+.all{
+  margin-top: 10%;
+  white-space: pre-line;
+  text-align: justify;
+  }
+.poems{
+  margin-top: 10%;
+	white-space: pre-line;
+	text-align: center;
+}
+h2{
+  font-size: 30px;
+}
